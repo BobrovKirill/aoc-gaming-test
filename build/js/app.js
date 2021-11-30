@@ -4,10 +4,11 @@ window.onload = function () {
 
 	const nextSlider = document.querySelector('.carousel__arrow-next');
 	let hideTimeoutId = null
+	
 	hideTimeoutId = setTimeout(() => {
     nextSlider.click()
   }, 4000)
-	//function startTimeout () {setTimeout(() => nextSlider.click(), 4000)};
+
 
   // CREATE CAROUSEL IMAGE
 
